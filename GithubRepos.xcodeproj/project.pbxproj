@@ -13,6 +13,8 @@
 		3CB633551E3FAD3600F84193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB633531E3FAD3600F84193 /* Main.storyboard */; };
 		3CB633571E3FAD3600F84193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB633561E3FAD3600F84193 /* Assets.xcassets */; };
 		3CB6335A1E3FAD3600F84193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CB633581E3FAD3600F84193 /* LaunchScreen.storyboard */; };
+		3CB633661E3FBA8400F84193 /* jsonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB633651E3FBA8400F84193 /* jsonTableViewCell.m */; };
+		3CB633691E3FC2C800F84193 /* Repo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB633681E3FC2C800F84193 /* Repo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3CB633561E3FAD3600F84193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CB633591E3FAD3600F84193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CB6335B1E3FAD3600F84193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB633641E3FBA8400F84193 /* jsonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = jsonTableViewCell.h; path = ../jsonTableViewCell.h; sourceTree = "<group>"; };
+		3CB633651E3FBA8400F84193 /* jsonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = jsonTableViewCell.m; path = ../jsonTableViewCell.m; sourceTree = "<group>"; };
+		3CB633671E3FC2C800F84193 /* Repo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Repo.h; sourceTree = "<group>"; };
+		3CB633681E3FC2C800F84193 /* Repo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Repo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,13 @@
 		3CB633491E3FAD3600F84193 /* GithubRepos */ = {
 			isa = PBXGroup;
 			children = (
-				3CB6334D1E3FAD3600F84193 /* AppDelegate.h */,
-				3CB6334E1E3FAD3600F84193 /* AppDelegate.m */,
+				3CB633641E3FBA8400F84193 /* jsonTableViewCell.h */,
+				3CB633651E3FBA8400F84193 /* jsonTableViewCell.m */,
 				3CB633501E3FAD3600F84193 /* ViewController.h */,
 				3CB633511E3FAD3600F84193 /* ViewController.m */,
+				3CB633671E3FC2C800F84193 /* Repo.h */,
+				3CB633681E3FC2C800F84193 /* Repo.m */,
 				3CB633531E3FAD3600F84193 /* Main.storyboard */,
-				3CB633561E3FAD3600F84193 /* Assets.xcassets */,
-				3CB633581E3FAD3600F84193 /* LaunchScreen.storyboard */,
-				3CB6335B1E3FAD3600F84193 /* Info.plist */,
 				3CB6334A1E3FAD3600F84193 /* Supporting Files */,
 			);
 			path = GithubRepos;
@@ -74,6 +79,11 @@
 		3CB6334A1E3FAD3600F84193 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CB633561E3FAD3600F84193 /* Assets.xcassets */,
+				3CB633581E3FAD3600F84193 /* LaunchScreen.storyboard */,
+				3CB6335B1E3FAD3600F84193 /* Info.plist */,
+				3CB6334D1E3FAD3600F84193 /* AppDelegate.h */,
+				3CB6334E1E3FAD3600F84193 /* AppDelegate.m */,
 				3CB6334B1E3FAD3600F84193 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,9 +160,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CB633691E3FC2C800F84193 /* Repo.m in Sources */,
 				3CB633521E3FAD3600F84193 /* ViewController.m in Sources */,
 				3CB6334F1E3FAD3600F84193 /* AppDelegate.m in Sources */,
 				3CB6334C1E3FAD3600F84193 /* main.m in Sources */,
+				3CB633661E3FBA8400F84193 /* jsonTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +319,7 @@
 				3CB633601E3FAD3600F84193 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
